@@ -1,7 +1,6 @@
 const hapi = require('@hapi/hapi');
 const env = require('./env.js');
 const Movies = require('./respository/movie');
-
 const AuthBearer = require('hapi-auth-bearer-token'); //-------- AuthBearer -------
 
 const express = require('express');
@@ -26,7 +25,7 @@ const init = async () => {
         routes: {
             //cors: true
             "cors": {
-                "origin": ["Access-Control-Allow-Origin", "192.168.179.111:3000"],
+                "origin": ["Access-Control-Allow-Origin", "movie.se-rmutl.net:3001"],
                 "headers": ["Accept", "Content-Type"],
                 "additionalHeaders": ["X-Requested-With"]
             }
