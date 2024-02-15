@@ -23,6 +23,7 @@
     "@hapi/hapi": "^21.3.2",
     "@hapi/inert": "^7.1.0",
     "express": "^4.17.1",
+    "hapi-auth-bearer-token": "^8.0.0",
     "http-proxy-middleware": "^1.0.4",
     "mysql": "^2.18.1"
   },
