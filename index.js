@@ -25,7 +25,7 @@ const init = async () => {
         routes: {
             //cors: true
             "cors": {
-                "origin": ["Access-Control-Allow-Origin", "movie.se-rmutl.net:3001"],
+                "origin": ["Access-Control-Allow-Origin", "movie.se-rmutl.net"],
                 "headers": ["Accept", "Content-Type"],
                 "additionalHeaders": ["X-Requested-With"]
             }
